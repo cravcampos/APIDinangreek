@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dinangreek.DAL\Dinangreek.DAL.csproj" />
+    <ProjectReference Include="..\Dinangreek.DTO\Dinangreek.DTO.csproj" />
+    <ProjectReference Include="..\Dinangreek.Model\Dinangreek.Model.csproj" />
+    <ProjectReference Include="..\Dinangreek.Utility\Dinangreek.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
